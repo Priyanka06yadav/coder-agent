@@ -6,9 +6,9 @@ The idea is simple: instead of manually writing a solution and checking every te
 
 I used **CrewAI and Gemini** to generate and debug code, Python to manage the workflow, and Docker to run the generated programs in isolated containers. I also built a Gradio interface so the application can be used through a simple web UI.
 
+<img width="929" height="437" alt="Screenshot 2026-11-19 011212" src="https://github.com/user-attachments/assets/91d777b3-9a88-4aaa-b09a-ef5eaf9fdc04" />
 <img width="437" height="335" alt="Screenshot 2026-11-19 011240" src="https://github.com/user-attachments/assets/a1a769bf-6ae6-470f-becb-d1d9d2dabcde" />
 <img width="452" height="423" alt="Screenshot 2026-11-19 011223" src="https://github.com/user-attachments/assets/4b53fd7e-e3e6-4226-ae86-faa739407eee" />
-<img width="929" height="437" alt="Screenshot 2026-11-19 011212" src="https://github.com/user-attachments/assets/91d777b3-9a88-4aaa-b09a-ef5eaf9fdc04" />
 
 
 ## What can it do?
