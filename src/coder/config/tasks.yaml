@@ -1,0 +1,59 @@
+
+coding_task:
+  description: >
+    Solve the following Python programming assignment:
+    {assignment}
+
+    Sample input provided by the user:
+    {sample_input}
+
+    Generate a complete Python solution.
+
+    IMPORTANT REQUIREMENTS:
+    1. Understand the assignment carefully.
+    2. If the program requires input values, read them using Python's input() function.
+    3. Do not hardcode sample input values into the program.
+    4. The program must work with different inputs, not just the provided sample.
+    5. Save the generated code using Python File Writer.
+    6. You MUST save the file with this exact filename: {filename}
+    7. Save it inside sandbox/generated_code.
+    8. Do not execute the code. The Python orchestrator will execute it.
+
+  expected_output: >
+    Provide the generated filename, complete Python code,
+    and a brief explanation.
+
+  agent: coder
+
+
+
+debugging_task:
+  description: >
+    You previously generated a Python program for this assignment:
+    {assignment}
+
+    Filename: {filename}
+
+    Previous code:
+    {previous_code}
+
+    Failed test cases and their details:
+    {execution_error}
+
+    Your responsibilities:
+
+    1. Analyze the failed test cases carefully.
+    2. Identify the root cause of the failure.
+    3. Do not change code that is already working unnecessarily.
+    4. Fix the underlying issue rather than hardcoding test outputs.
+    5. Ensure the solution handles the original assignment correctly.
+    6. Save the corrected code using Python File Writer.
+    7. Use exactly the same filename: {filename}.
+    8. Do not execute the code. The orchestrator will test it again.
+
+  expected_output: >
+    Provide the corrected filename, complete corrected code,
+    root cause of the failure, and explanation of the fix.
+
+  agent: coder
+
